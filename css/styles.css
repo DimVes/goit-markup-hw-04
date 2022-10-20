@@ -78,6 +78,9 @@ body{
         letter-spacing: 0.03em; 
     }
 
+   ul{
+        list-style: none;
+    }
 /* Hero */
  .hero{
     background-color: #2F303A;
