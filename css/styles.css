@@ -26,7 +26,7 @@
    text-decoration: none;
 } */
 
-.link{
+.studio{
     color: var(--main);
     text-decoration: none;
         font-weight: 500;
@@ -35,9 +35,9 @@
         letter-spacing: 0.02em;
 }
 .link .link:hover, .link:focus{
-   color: #2196F3;;
+   color: #2196F3;
 }
-.link-portfolio, .link-contacts{
+ .portfolio, .contacts{
     color: var(--main);
     text-decoration: none;
     font-family: 'Roboto';
@@ -46,7 +46,9 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-}
+} 
+
+
     .mail{
         color:var(--text-body);
         text-decoration: none;
@@ -70,9 +72,7 @@
             line-height: 1.14;
             letter-spacing: 0.02em;
 }
-.site-nav list{
-    text-decoration: none;
-}
+
 
 /* body */
 body{
@@ -81,6 +81,7 @@ body{
         font-family: Roboto, sans-serif;
         letter-spacing: 0.03em;  
     }
+
 /* Hero */
  .hero{
     background-color: #2F303A;
@@ -127,7 +128,7 @@ body{
 font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+    /* text-align: center; */
     
 }
 /* Наща команда */
