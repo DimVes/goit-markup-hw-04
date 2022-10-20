@@ -4,7 +4,7 @@
     --text-body: #757575;
     --background:#F5F5F5;
 }
-
+/* Студия */
  /* Header */
 .header{
     background-color: #FFFFFF;
@@ -22,9 +22,7 @@
  .logo-web{
     color: #2196F3;
  }
-/* .list{
-   text-decoration: none;
-} */
+
 
 .studio{
     color: var(--main);
@@ -40,8 +38,6 @@
  .portfolio, .contacts{
     color: var(--main);
     text-decoration: none;
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -79,7 +75,7 @@ body{
         background-color: #FFFFFF;
         color:var(--text-body);
         font-family: Roboto, sans-serif;
-        letter-spacing: 0.03em;  
+        letter-spacing: 0.03em; 
     }
 
 /* Hero */
@@ -97,15 +93,13 @@ body{
 .button{
     color: #FFFFFF;
     background-color: var(--button);
-    /* font-family: 'Roboto'; */
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
+        cursor: pointer;
 }
+
 
 /* >Наші переваги */
 
@@ -181,3 +175,41 @@ color: var(--text-body);
     line-height: 1.71;
  }
   
+
+/* Портфолио */
+
+/* кнопки */
+.button-portfolio-all {
+    color: #FFFFFF;
+    background-color: var(--button);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.button-portfolio-main {
+    color: var(--main);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+}
+.item-title{
+        color: var(--main);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.item-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+}
