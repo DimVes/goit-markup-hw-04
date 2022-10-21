@@ -243,16 +243,16 @@ color: var(--text-body);
         cursor: pointer;
         font-family: inherit
 }
-.button-portfolio-all:hover{
+.button-portfolio-all:hover, .button-portfolio-all:focus{
     color: var(--main);
     background-color: var(--button);
   
 }
-.button-portfolio-all:focus {
+/* .button-portfolio-all:focus {
     color: var(--main);
     background-color: var(--button);
 
-}
+} */
 
 .button-portfolio-main {
     color: var(--main-text);
