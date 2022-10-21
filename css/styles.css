@@ -246,6 +246,7 @@ color: var(--text-body);
 .button-portfolio-all:hover{
     color: var(--main);
     background-color: var(--button);
+  
 }
 
 .button-portfolio-main {
