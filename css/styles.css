@@ -203,7 +203,7 @@ color: var(--text-body);
 
  }
 
- .adr{
+ .address{
         color: var(--main);
         font-weight: 400;
         font-size: 14px;
@@ -211,7 +211,7 @@ color: var(--text-body);
         text-decoration: none;
         font-style: normal;
  }
- .adr:hover, .adr:focus{
+ .address:hover, .address:focus{
     color: var(--button);
  }
  .footer-mail, .footer-phone{
