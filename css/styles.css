@@ -248,6 +248,11 @@ color: var(--text-body);
     background-color: var(--button);
   
 }
+.button-portfolio-all:focus {
+    color: var(--main);
+    background-color: var(--button);
+
+}
 
 .button-portfolio-main {
     color: var(--main-text);
