@@ -36,10 +36,22 @@
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-.link .link:hover, .link:focus{
+.studio:hover, .studio:focus{
    color: var(--button);
 }
 
+.portfolio:hover, .portfolio:focus{
+   color: var(--button);
+}
+.contacts:hover, .contacts:focus{
+   color: var(--button);
+}
+.mail:hover, .mail:focus{
+   color: var(--button);
+}
+.phone:hover, .phone:focus{
+   color: var(--button);
+}
 .site-nav .link.current{
     color: var(--button);
 }
@@ -199,7 +211,9 @@ color: var(--text-body);
         text-decoration: none;
         font-style: normal;
  }
- 
+ .adr:hover, .adr:focus{
+    color: var(--button);
+ }
  .footer-mail, .footer-phone{
    color: rgba(255, 255, 255, 0.6);
    text-decoration: none;
@@ -208,7 +222,12 @@ color: var(--text-body);
     line-height: 1.71;
     font-style: normal;
  }
-  
+  .footer-mail:hover, .footer-mail:focus{
+    color: var(--button);
+  }
+  .footer-phone:hover , .footer-phone:focus{
+    color: var(--button);
+  }
 
 /* Портфолио */
 
