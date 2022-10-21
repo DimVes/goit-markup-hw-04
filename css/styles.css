@@ -23,9 +23,6 @@
         text-decoration: none;
 
  }
- .logo-web{
-    color: #2196F3;
- }
 
 
 .studio{
@@ -137,6 +134,7 @@ body{
         letter-spacing: 0.06em;
         cursor: pointer;
         font-family: inherit;
+        
 }
 .button:hover{
     color: var(--button);
