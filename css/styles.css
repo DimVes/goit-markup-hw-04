@@ -1,13 +1,17 @@
 :root{
-    --main:#212121;
+    --main-text:#212121;
     --button:#2196F3;
     --text-body: #757575;
     --background:#F5F5F5;
+    --main: #FFFFFF;
+    --hero-bcg:#2F303A;
+    --our-team-bcg: #F5F4FA;
+    
 }
 /* Студия */
  /* Header */
 .header{
-    background-color: #FFFFFF;
+    background-color: var(--main);
 }
  .logo{
     color: #000000;
@@ -25,7 +29,7 @@
 
 
 .studio{
-    color: var(--main);
+    color: var(--main-text);
     text-decoration: none;
         font-weight: 500;
         font-size: 14px;
@@ -33,14 +37,14 @@
         letter-spacing: 0.02em;
 }
 .link .link:hover, .link:focus{
-   color: #2196F3;
+   color: var(--button);
 }
 
 .site-nav .link.current{
-    color: #2196F3;
+    color: var(--button);
 }
  .portfolio, .contacts{
-    color: var(--main);
+    color:var(--main-text);
     text-decoration: none;
         font-weight: 500;
         font-size: 14px;
@@ -60,7 +64,7 @@
          
     }
 .mail .link:hover, .link:focus{
-    color: #2196F3;
+    color: var(--button);
 }
 
 .phone{
@@ -76,7 +80,7 @@
 
 /* body */
 body{
-        background-color: #FFFFFF;
+        background-color: var(--main);
         color:var(--text-body);
         font-family: Roboto, sans-serif;
         letter-spacing: 0.03em; 
@@ -102,10 +106,10 @@ body{
         }
 /* Hero */
  .hero{
-    background-color: #2F303A;
+    background-color: var(--hero-bcg);
  }
 .hero-title{
-    color:#FFFFFF;
+    color:var(--main);
        font-weight: 900;
         font-size: 44px;
         line-height: 1.5;
@@ -113,7 +117,7 @@ body{
         letter-spacing: 0.06em;
 }
 .button{
-    color: #FFFFFF;
+    color: var(--main);
     background-color: var(--button);
         font-weight: 700;
         font-size: 16px;
@@ -133,7 +137,7 @@ body{
 /* >Наші переваги */
 
 .peculiarity-head{
-    color:var(--main);
+    color:var(--main-text);
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -147,7 +151,7 @@ body{
 }
 /* Чим ми займаємось */
 .sec-title{
-    color: var(--main);
+    color: var(--main-text);
 font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -156,10 +160,10 @@ font-weight: 700;
 }
 /* Наща команда */
 .our-team{
-    background-color: #F5F4FA;
+    background-color: var(--our-team-bcg);
 }
 .our-team-name{
-color: var(--main);
+color: var(--main-text);
 font-weight: 500;
  font-size: 16px;
  line-height: 1.18;
@@ -175,12 +179,11 @@ color: var(--text-body);
 
 /* Footer */
 .footer{
-    background-color:#2F303A
+    background-color: var(--hero-bcg)
 }
  .logo-footer {
-     color: #FFFFFF;
+     color: var(--main);
      font-family: 'Raleway';
-     font-style: normal;
      font-weight: 700;
      font-size: 26px;
      line-height: 1.19;
@@ -189,7 +192,7 @@ color: var(--text-body);
  }
 
  .adr{
-        color: #FFFFFF;
+        color: var(--main);
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -211,23 +214,26 @@ color: var(--text-body);
 
 /* кнопки */
 .button-portfolio-all {
-    color: #FFFFFF;
-    background-color: var(--button);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    font-family: inherit;
+    /* color: var(--main-text);
+    background-color: var(--button); */
+    color: var(--main-text);
+        background-color: var(--background);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        font-family: inherit
 }
 .button-portfolio-all:hover{
-    color: var(--button);
+    color: var(--main);
+    background-color: var(--button);
 }
 
 .button-portfolio-main {
-    color: var(--main);
-    background-color: #F5F4FA;
+    color: var(--main-text);
+    background-color: var(--background);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -238,7 +244,7 @@ color: var(--text-body);
 
 }
 .item-title{
-        color: var(--main);
+        color: var(--main-text);
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
