@@ -106,6 +106,7 @@ body{
         line-height: 1.88;
         letter-spacing: 0.06em;
         cursor: pointer;
+        font-family: inherit;
 }
 
 
@@ -198,6 +199,7 @@ color: var(--text-body);
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .button-portfolio-main {
@@ -209,6 +211,7 @@ color: var(--text-body);
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    font-family: inherit;
 
 }
 .item-title{
