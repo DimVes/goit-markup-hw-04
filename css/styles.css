@@ -218,6 +218,7 @@ h1, h2, h3, p{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    
 }
 
 .our-team-work {
@@ -231,6 +232,7 @@ h1, h2, h3, p{
 /* Footer */
 .footer {
     background-color: var(--hero-bcg)
+
 }
 
 .logo-footer {
@@ -240,6 +242,7 @@ h1, h2, h3, p{
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    
 
 }
 
