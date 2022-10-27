@@ -55,7 +55,11 @@ p {
 .header {
     background-color: var(--main);
 }
-
+/* Main header */
+.main-nav{
+    display: flex;
+    align-items: center;
+}
 .logo {
     color: var(--button);
     font-family: 'Raleway', sans-serif;
