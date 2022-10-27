@@ -6,8 +6,8 @@
     --main: #FFFFFF;
     --hero-bcg: #2F303A;
     --our-team-bcg: #F5F4FA;
-    --logo:#000000;
-    
+    --logo: #000000;
+
 }
 
 /* body */
@@ -16,22 +16,29 @@ body {
     color: var(--text-body);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
 }
 
-h1, h2, h3, p{
+h1,
+h2,
+h3,
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.link{
+
+.link {
     text-decoration: none;
 }
-.container{
+
+.container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -43,6 +50,8 @@ h1, h2, h3, p{
 /* Студия */
 
 /* Header */
+
+
 .header {
     background-color: var(--main);
 }
@@ -60,30 +69,31 @@ h1, h2, h3, p{
 .logo-studio {
     color: var(--logo);
 }
+
 .logo-studio-footer {
     color: var(--main);
 }
+
+.site-nav{
+    display: flex;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--button);
+}
+
+.site-nav .item + .item{
+    margin-left: 50px;
+}
+
 .studio {
     color: var(--main-text);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.studio:hover,
-.studio:focus {
-    color: var(--button);
-}
-
-.portfolio:hover,
-.portfolio:focus {
-    color: var(--button);
-}
-
-.contacts:hover,
-.contacts:focus {
-    color: var(--button);
 }
 
 .mail:hover,
@@ -103,7 +113,7 @@ h1, h2, h3, p{
 .portfolio,
 .contacts {
     color: var(--main-text);
-     font-weight: 500;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -220,7 +230,7 @@ h1, h2, h3, p{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    
+
 }
 
 .our-team-work {
@@ -234,7 +244,6 @@ h1, h2, h3, p{
 /* Footer */
 .footer {
     background-color: var(--hero-bcg)
-
 }
 
 .logo-footer {
@@ -244,7 +253,7 @@ h1, h2, h3, p{
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    
+
 
 }
 
@@ -279,8 +288,8 @@ h1, h2, h3, p{
 /* Портфолио */
 
 /* кнопки */
-.button-portfolio{
-     color: var(--main-text);
+.button-portfolio {
+    color: var(--main-text);
     background-color: var(--background);
     font-weight: 500;
     font-size: 16px;
@@ -311,3 +320,4 @@ h1, h2, h3, p{
     font-size: 16px;
     line-height: 1.88;
 }
+
