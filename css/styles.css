@@ -60,6 +60,12 @@ p {
     display: flex;
     align-items: center;
 }
+
+/* test */
+.test{
+    display: flex;
+}
+
 .logo {
     color: var(--button);
     font-family: 'Raleway', sans-serif;
