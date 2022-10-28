@@ -432,6 +432,11 @@ img {
 .portfolio-groop:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.portfolio-groop {
-  border: 1px solid var(--portfolio-border);
+.item-title , .item-text{
+  border-left: 1px solid var(--portfolio-border);
+  border-right: 1px solid var(--portfolio-border);
+  border-bottom: 1px solid var(--portfolio-border);
+}
+.item-title{
+  border-bottom: 0;;
 }
