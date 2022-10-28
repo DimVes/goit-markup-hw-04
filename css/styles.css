@@ -412,13 +412,26 @@ img {
 .portfolio-item {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 1200px;
+  
 }
-.portfolio-item .portfolio-groop {
+/* /.portfolio-item .portfolio-groop {
   width: calc((100%-60px) / 3);
   margin-bottom: 30px;
+} */
+
+.portfolio-groop{
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
-.portfolio-item li:nth-last-child(-n + 3) {
+.portfolio-groop:nth-child(3n){
+  margin-right: 0;
+}
+.portfolio-groop:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
-
+.portfolio-groop{
+  border: 1px solid var(--portfolio-border);
+}
