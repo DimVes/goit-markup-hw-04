@@ -8,6 +8,7 @@
   --our-team-bcg: #f5f4fa;
   --logo: #000000;
   --header-border: #ECECEC;
+  --portfolio-border:#EEEEEE;
 }
 
 /* body */
@@ -419,3 +420,11 @@ img {
 .portfolio-item li:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+
+.portfolio-groop{
+border: 1px solid tomato;
+}
+
+/* .portfolio-item .portfolio-groop + .portfolio-groop{
+  margin-left: 30px;
+} */
