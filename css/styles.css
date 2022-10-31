@@ -252,6 +252,9 @@ img {
   margin-left: 30px;
 }
 
+.peculiarity-item{
+  flex-basis: 270px;
+}
 
 .peculiarity-head {
   margin-bottom: 10px;
