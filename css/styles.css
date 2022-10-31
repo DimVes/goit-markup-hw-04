@@ -64,14 +64,19 @@ img {
 
 .header {
   background-color: var(--main);
-  border: 1px solid var(--header-border);
+  border-bottom: 1px solid var(--header-border);
 }
 /* Main header */
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  
 }
+.site-nav , .cont{
+  margin-left: auto;
+}
+
 /* Лого и Nav */
 .logo {
   color: var(--button);
@@ -98,13 +103,19 @@ img {
   margin-left: 50px;
 }
 .site-nav {
-  padding-left: 93px;
+  margin-left: 93px;
 }
 /* посилання Студия Портофолио Контакти */
 .site-nav .link {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.cont .link{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .studio {
   color: var(--main-text);
