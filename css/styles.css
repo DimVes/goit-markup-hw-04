@@ -19,6 +19,8 @@
     --border-color: #AFB1B8;
     --indent: 30px;
     --items: 4;
+    --time: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .container {
@@ -27,6 +29,7 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+  
 
     /*outline: 2px solid red;*/
 }
@@ -50,7 +53,7 @@ body {
     overflow: hidden;
 }
 
-/* Card set */
+       /* ===========>>>  Card set <<<=========== */
 
 .card-set {
     display: flex;
@@ -62,7 +65,7 @@ body {
     flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / (var(--items)));
 }
 
-/* Reset*/
+    /* ===========>>>  Reset   <<<===========*/
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -90,7 +93,7 @@ img {
     border: 0;
 }
 
-/* Header*/
+       /*===========>>>   Header   <<<=========== */
 
 .header {
     background-color: var(--main-background-color);
@@ -131,6 +134,8 @@ img {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--main-title-color);
+
+    transition: color var(--time);
 }
 
 .nav-item.current {
@@ -156,6 +161,8 @@ img {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+
+    transition: color var(--time);
 }
 
 .contact:hover,
@@ -168,7 +175,7 @@ img {
     fill: currentColor;
 }
 
-/* Hero*/
+             /* ===========>>>  >Hero  <<<===========*/
 
 .hero-section {
     max-width: 1600px;
@@ -210,6 +217,8 @@ img {
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    transition: background-color var(--time);
 }
 
 .hero-btn:active,
@@ -217,7 +226,7 @@ img {
 .hero-btn:focus {
     background-color: var(--btn-active-color)
 }
-/* Features */
+                     /* ===========>>>>Features <<<<=========== */
 
 .section {
     padding-top: 94px;
@@ -250,7 +259,7 @@ img {
     letter-spacing: 0.03em;
 }
 
-/* Work examples */
+                 /*===========>>>> Work examples <<<<=========== */
 
 .work-section {
     padding-top: 0;
@@ -271,7 +280,7 @@ img {
     --items: 3;
 }
 
-/* Team */
+                   /*===========>>>> Team <<<<=========== */
 
 .team {
     background-color: var(--secondary-background-color);
@@ -324,6 +333,10 @@ img {
     border-radius: 50%;
     background-color: var(--main-background-color);
     color: var(--icon-main-color);
+
+    transition: color var(--time), background-color var(--time);
+
+    
 }
 
 .socials-link:hover,
@@ -336,7 +349,7 @@ img {
     fill: currentColor;
 }
 
-/*Clients*/
+                  /*===========>>>>Clients<<<<===========*/
 
 .client-list {
     display: flex;
@@ -359,6 +372,8 @@ img {
     background-color: var(--main-background-color);
     border-radius: 4px;
     border: 1px solid var(--border-color);
+
+    transition: color var(--time), background-color var(--time);
 }
 
 .client-link:hover,
@@ -370,7 +385,7 @@ img {
 .client-icon {
     fill: currentColor
 }
-/* Footer*/
+                /* ===========>>>> Footer <<<<===========*/
 
 .footer {
     padding-top: 60px;
@@ -403,6 +418,10 @@ img {
     line-height: calc(21 / 14);
     letter-spacing: 0.03em;
     color: var(--main-white-color);
+
+    transition: color var(--time), background-color var(--time);
+
+    
 }
 .contact-link.mail ,
 .contact-link.phone {
@@ -434,6 +453,9 @@ img {
     border-radius: 50%;
     background-color: var(--icon-footer-bg-color);
     color: var(--icon-white-color);
+
+    transition: color var(--time), background-color var(--time);
+
 }
 
 .footer-socials-link:hover,
@@ -445,9 +467,9 @@ img {
 .footer-socials-icon {
     fill: currentColor;
 }
-/* ----------------Portfolio CSS------------------- */
+               /* ===========>>>>  Portfolio CSS<<<<=========== */
 
-/* Filer */
+            /* ===========>>>>  Filter  <<<<=========== */
 
 .filter-list {
     display:flex;
@@ -468,6 +490,9 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-title-color);
     border-radius: 4px;
+
+    transition: color var(--time), background-color var(--time),
+    box-shadow var(--time);
 }
 .filter-btn.current {
     color: var(--main-white-color);
@@ -481,7 +506,7 @@ img {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Portfolio */
+                     /* ===========>>>>  Portfolio <<<<=========== */
 .portfolio-list {
     --items: 3;
 }
@@ -519,4 +544,17 @@ img {
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
+
+
+/* ===========>>>  Animations <<<<=========== */
+
+/*===========>>> Header  <<<<=========== */
+
+.current::after{
+    content: '';
+    width: 48px;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
 }
